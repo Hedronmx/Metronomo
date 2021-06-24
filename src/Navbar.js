@@ -22,9 +22,9 @@ export default class Navbar extends React.Component {
           <button onClick={this.props.toggleTheme}>
             {
               this.props.theme === "dark" ? 
-              <><FontAwesomeIcon icon={faSun} />&nbsp;&nbsp;Too dark?</>
+              <><FontAwesomeIcon icon={faSun} />&nbsp;&nbsp;Cambiar a modo blanco</>
               :
-              <><FontAwesomeIcon icon={faMoon} />&nbsp;&nbsp;Too bright?</>
+              <><FontAwesomeIcon icon={faMoon} />&nbsp;&nbsp;Cambiar a modo negro</>
             }
           </button>
         </div>

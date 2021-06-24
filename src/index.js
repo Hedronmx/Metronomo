@@ -54,12 +54,6 @@ class App extends React.Component {
               theme={this.state.theme === "dark" ? this.state.darkTheme : this.state.lightTheme} 
             />
           </div>  
-          <footer>
-            <a href="https://github.com/aviolin/metronome/" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faGithub} />&nbsp;&nbsp;View the source on Github
-            </a>
-            <p>&copy; 2021, Arlo Adams</p>
-          </footer>
         </div>
       </div>
     ); 
